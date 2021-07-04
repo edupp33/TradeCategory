@@ -1,0 +1,8 @@
+Some general comments on this code.
+
+This is a simple problem and therefore a simple code. No async, no threads, no performance issues, etc.
+
+Regarding the tests, there are unit tests for each category and a global test. The global test is good, but if the number of categories grows too much,
+its maintenace may become a problem. But it needs a solution for overlaping categories: for instance, should PEP be processed before or after MEDIUMRISK?
+This kind of issue cannot be covered by the categories tests.
+
