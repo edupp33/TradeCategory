@@ -1,1 +1,2 @@
-"# TradeCategory" 
+# TradeCategory 
+
