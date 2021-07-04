@@ -5,7 +5,7 @@ using TradeCategory.Trade;
 
 namespace TradeCategory.Category.Implementation
 {
-	class ExpiredCategory : ICategory
+	public class ExpiredCategory : ICategory
 	{
 		string ICategory.CategoryName => "EXPIRED";
 

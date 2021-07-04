@@ -4,7 +4,7 @@ using System.Text;
 
 namespace TradeCategory.Trade
 {
-	class TradeElement : ITrade
+	public class TradeElement : ITrade
 	{
 		private readonly double value;
 		double ITrade.Value => value;

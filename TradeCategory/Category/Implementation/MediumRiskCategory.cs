@@ -5,7 +5,7 @@ using TradeCategory.Trade;
 
 namespace TradeCategory.Category.Implementation
 {
-	class MediumRiskCategory : ICategory
+	public class MediumRiskCategory : ICategory
 	{
 		string ICategory.CategoryName => "MEDIUMRISK";
 
